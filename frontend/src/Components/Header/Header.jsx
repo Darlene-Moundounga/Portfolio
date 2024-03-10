@@ -1,15 +1,15 @@
 function Header () {
     return (
-        <div>
-            <div>
-                <h1>Darlène Moundounga</h1>
+        <div className="header">
+            <div className="headerTitle">
+                <p>Darlène Moundounga</p>
             </div>
-            <div>
+            <nav className="headerSections">
                 <p>A propos</p>
                 <p>Compétences</p>
                 <p>Projets</p>
                 <p>Contactez-moi</p>
-            </div>
+            </nav>
         </div>
     )
 }
