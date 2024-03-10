@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Lovelo Line";
+  src: url(./police/Lovelo-LineLight.woff) format("woff");
+}
 body {
   font-family: "Ubuntu", sans-serif;
   margin: 0;
@@ -33,6 +37,47 @@ code {
 .header p {
   padding: 5px;
   margin: 5px;
+}
+
+.pagePresentation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+.pagePresentation h1 {
+  font-family: "Lovelo Line";
+  font-size: 60px;
+  width: auto;
+  text-align: center;
+  color: white;
+}
+.pagePresentation .subtitlePage {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+.pagePresentation .subtitlePage p {
+  font-size: 40px;
+  color: #F2F3F3;
+  margin: 0;
+}
+.pagePresentation .subtitlePage img {
+  width: 100px;
+  height: 100px;
+}
+.pagePresentation p, .pagePresentation a, .pagePresentation h1 {
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.pagePresentation a {
+  background-color: #ABADB2;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border: 4px solid white;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=index.css.map */
