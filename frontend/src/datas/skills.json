@@ -1,0 +1,26 @@
+[
+    {
+        "title":"HTML & CSS/SASS",
+        "description":"Réalisation de sites web en HTML et CSS, respect d'une maquette,utilisation de SASS pour le CSS"
+    },
+    {
+        "title":"Javascript & ReactJS",
+        "description":"Réalisation de site web dynamique, avec Javascript et/ou ReactJS, communication avec des API"
+    },
+    {
+        "title":"NodeJS/ExpressJS & MongoDB",
+        "description":"Gérer la partie back-end avec un serveur, stockage sécurisé des données, pratique du Green Code, permettre une authentification sécurisée"
+    },
+    {
+        "title":"Git & GitHub",
+        "description":"Versionner les projets avec Git et GitHub"
+    },
+    {
+        "title":"Optimisation et Debug",
+        "description":"Optimiser un site web en ce qui concerne le SEO (Référencement), l'accessibilité, les performances et debug du site"
+    },
+    {
+        "title":"Gestion de Projet",
+        "description":"Planification du développement d'un site,réaliser des spécifications techniques à partir de spécifications fonctionnelles, faire de la veille technologique, pratique des méthodes agiles et Kanban"
+    }
+]
