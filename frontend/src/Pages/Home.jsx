@@ -8,13 +8,16 @@ function Home (){
         <div>
             <PagePresentation/>
             <About/>
-            <div>
-                {dataSkills.map((skill) => 
-                    <Skills 
-                    key={skill.id}
-                    title={skill.title} 
-                    description={skill.description}/>
-                )}
+            <div className='skillsSection'>
+                <h2>Mes compétences</h2>
+                <div className="skillsCards">
+                    {dataSkills.map((skill) => 
+                        <Skills 
+                        key={skill.id}
+                        title={skill.title} 
+                        description={skill.description}/>
+                    )}
+                </div>
             </div>
         </div>
     )

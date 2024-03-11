@@ -4,6 +4,7 @@
 }
 
 $primary-color:#DDD7F1;
+$secondary-color: #E8FDFD;
 
 
 body {
@@ -66,7 +67,7 @@ body {
     align-items: center;
       p{
         font-size: 40px;
-        color: #F2F3F3;
+        color: $secondary-color;
         margin: 0;
       }
       img{
@@ -113,3 +114,42 @@ body {
       }
     }
   }
+
+
+.skillsSection{
+  h2{
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .skillsCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 15px;
+    gap: 10px;
+    .skillCard{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      border: 1px solid gray;
+      height: 200px;
+      padding: 10px;
+      align-items: center;
+      background-color: $secondary-color;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: blueviolet 3px 2px 5px 1px,;
+      p{
+        display: none;;
+      }
+    }
+
+    .skillCard:hover{
+      p{
+        display: block;
+      }
+    }
+  }
+}
+  

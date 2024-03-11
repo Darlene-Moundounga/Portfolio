@@ -60,7 +60,7 @@ code {
 }
 .pagePresentation .subtitlePage p {
   font-size: 40px;
-  color: #F2F3F3;
+  color: #E8FDFD;
   margin: 0;
 }
 .pagePresentation .subtitlePage img {
@@ -102,6 +102,38 @@ code {
   border-radius: 200px;
   width: 300px;
   height: 300px;
+}
+
+.skillsSection h2 {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+.skillsSection .skillsCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 15px;
+  gap: 10px;
+}
+.skillsSection .skillsCards .skillCard {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid gray;
+  height: 200px;
+  padding: 10px;
+  align-items: center;
+  background-color: #E8FDFD;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: blueviolet 3px 2px 5px 1px;
+}
+.skillsSection .skillsCards .skillCard p {
+  display: none;
+}
+.skillsSection .skillsCards .skillCard:hover p {
+  display: block;
 }
 
 /*# sourceMappingURL=index.css.map */
