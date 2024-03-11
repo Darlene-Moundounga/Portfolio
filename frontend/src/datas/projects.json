@@ -1,40 +1,40 @@
 [
     {
-        "cover":"../assets/Booki.png",
+        "cover":"https://assets-global.website-files.com/653a5b42c47238f54d01094c/655df866407491860a52d906_Booki%20-%20Desktop%20Huge.png",
         "title":"Booki",
         "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
-        "lien":"https://darlene-moundounga.github.io/OC-P2-Booki/",
+        "link":"https://darlene-moundounga.github.io/OC-P2-Booki/",
         "tags":["HTML", "CSS"]
     },
 
     {
-        "cover":"../assets/Booki.png",
+        "cover":"https://assets-global.website-files.com/653a5b42c47238f54d01094c/655df866407491860a52d906_Booki%20-%20Desktop%20Huge.png",
         "title":"Sophie Bluel-Portfolio",
         "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
-        "lien":"https://github.com/Darlene-Moundounga/P3-Portfolio-SB/",
+        "link":"https://github.com/Darlene-Moundounga/P3-Portfolio-SB/",
         "tags":["HTML", "CSS", "Javascript", "API"]
     },
 
     {
-        "cover":"../assets/Booki.png",
+        "cover":"https://assets-global.website-files.com/653a5b42c47238f54d01094c/655df866407491860a52d906_Booki%20-%20Desktop%20Huge.png",
         "title":"Nina Carducci-Photographie",
         "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
-        "lien":"https://github.com/Darlene-Moundounga/darlene.github.io",
+        "link":"https://github.com/Darlene-Moundounga/darlene.github.io",
         "tags":["Ligthouse", "SEO","Référencement","Accessibilité","Performances"]
     },
     
     {
-        "cover":"../assets/Booki.png",
+        "cover":"https://assets-global.website-files.com/653a5b42c47238f54d01094c/655df866407491860a52d906_Booki%20-%20Desktop%20Huge.png",
         "title":"Kasa",
         "description":"Réalisation du projet Kasa, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
-        "lien":"https://github.com/Darlene-Moundounga/Kasa",
+        "link":"https://github.com/Darlene-Moundounga/Kasa",
         "tags":["SASS","ReactJS"]
     },
     {
-        "cover":"../assets/Booki.png",
+        "cover":"https://assets-global.website-files.com/653a5b42c47238f54d01094c/655df866407491860a52d906_Booki%20-%20Desktop%20Huge.png",
         "title":"Mon Vieux Grimoire",
-        "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
-        "lien":"https://github.com/Darlene-Moundounga/P7-Library",
+        "description":"Réalisation du projet Mon Vieux Grimoire, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
+        "link":"https://github.com/Darlene-Moundounga/P7-Library",
         "tags":["NodeJS","ExpressJS","MongoDB"]
     }
     

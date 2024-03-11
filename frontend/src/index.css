@@ -120,14 +120,13 @@ code {
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid gray;
   height: 200px;
   padding: 10px;
   align-items: center;
   background-color: #E8FDFD;
   justify-content: center;
   cursor: pointer;
-  box-shadow: blueviolet 3px 2px 5px 1px;
+  box-shadow: rgb(147, 109, 183) 3px 2px 5px 1px;
 }
 .skillsSection .skillsCards .skillCard p {
   display: none;
