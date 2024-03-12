@@ -21,17 +21,15 @@ function Home (){
                     )}
                 </div>
             </div>
-            <div>
+            <div className='projectsSection'>
                 <h2>Mes projets</h2>
-                <div>
+                <div className='projectsCards'>
                     {
                         dataProjects.map((project)=>
                         <Projects
                         key={project.title}
                         cover={project.cover}
                         title={project.title}
-                        description={project.description}
-                        link={project.link}
                         tags={project.tags}/>)
                     }
                 </div>

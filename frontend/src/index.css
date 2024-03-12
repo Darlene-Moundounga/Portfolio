@@ -104,22 +104,27 @@ code {
   height: 300px;
 }
 
+.skillsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .skillsSection h2 {
   margin-bottom: 35px;
   display: flex;
   justify-content: center;
 }
 .skillsSection .skillsCards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   justify-items: center;
   margin: 15px;
-  gap: 10px;
+  gap: 20px;
 }
 .skillsSection .skillsCards .skillCard {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 30%;
   height: 200px;
   padding: 10px;
   align-items: center;
@@ -133,6 +138,80 @@ code {
 }
 .skillsSection .skillsCards .skillCard:hover p {
   display: block;
+}
+
+.projectsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px;
+  background-color: #F8F8FA;
+}
+.projectsSection .projectsCards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projectsSection .projectsCards .projectInfos {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projectsSection .projectsCards .projectInfos .projectCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  background-color: rgb(230, 225, 235);
+}
+.projectsSection .projectsCards .projectInfos .projectCard img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.projectsSection .projectsCards .projectInfos .projectCard h4 {
+  margin: 10px;
+}
+.projectsSection .projectsCards .projectInfos button {
+  display: none;
+}
+.projectsSection .projectsCards .projectInfos ul {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  align-items: center;
+}
+.projectsSection .projectsCards .projectInfos ul li {
+  list-style-type: none;
+  border: 1px solid #E8FDFD;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #C9B6DB;
+  font-size: 10px;
+}
+.projectsSection .projectsCards .projectInfos:hover .projectCard {
+  filter: blur(5px);
+}
+.projectsSection .projectsCards .projectInfos:hover button {
+  position: absolute;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 25px;
+  color: white;
+  border-color: white;
+  background-color: #DDD7F1;
+  text-shadow: 5px 5px 10px black;
+  box-shadow: white 1px 2px 3px 3px;
+  cursor: pointer;
+  padding: 12px;
 }
 
 /*# sourceMappingURL=index.css.map */

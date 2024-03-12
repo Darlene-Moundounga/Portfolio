@@ -1,15 +1,17 @@
+import dataProjects from '../../datas/projects.json'
+
 function Projects ({cover,title,description,link,tags}) {
     return (
-        <div>
-            <img src={cover} alt="couverture du projet" />
-            <h4>{title} </h4>
-            <p>{description} </p>
-            <a href={link}></a>
+        <div className='projectInfos'>
+            <div className="projectCard">
+                <img src={cover} alt="couverture du projet" />
+                <h4>{title} </h4>
+            </div>
+            <button>Voir les détails</button>
             <ul>
-                <li>{tags} </li>
+                { tags.map((tag,index) =><li key={index}>{tag} </li> )}
             </ul>
         </div>
     )
 }
-
 export default Projects
