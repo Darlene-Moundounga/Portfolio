@@ -28,6 +28,7 @@ function Home (){
                         dataProjects.map((project)=>
                         <Projects
                         key={project.title}
+                        id={project.id}
                         cover={project.cover}
                         title={project.title}
                         tags={project.tags}/>)

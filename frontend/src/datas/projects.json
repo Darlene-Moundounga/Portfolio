@@ -1,5 +1,6 @@
 [
     {
+        "id":"Booki",
         "cover":"https://strapi-h2ev.onrender.com/uploads/Booki_Cover_Image_edb0369b75.webp",
         "title":"Booki",
         "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
@@ -9,6 +10,7 @@
     },
 
     {
+        "id":"SophieBluel-Portfolio",
         "cover":"https://strapi-h2ev.onrender.com/uploads/Sophie_Bluel_Cover_Image_900e348e98.webp",
         "title":"Sophie Bluel-Portfolio",
         "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
@@ -18,6 +20,7 @@
     },
 
     {
+        "id":"NinaCarducci-Photographie",
         "cover":"https://www.cams-code-projects.com/img-projects/nina-carducci/nina-carducci-cover.webp",
         "title":"Nina Carducci-Photographie",
         "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
@@ -27,6 +30,7 @@
     },
     
     {
+        "id":"Kasa",
         "cover":"https://strapi-h2ev.onrender.com/uploads/Kasa_Showcase_Image_8f93a1690f.webp",
         "title":"Kasa",
         "description":"Réalisation du projet Kasa, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
@@ -35,6 +39,7 @@
         "image":"https://strapi-h2ev.onrender.com/uploads/Kasa_Showcase_Image_8f93a1690f.webp"
     },
     {
+        "id":"MonVieuxGrimoire",
         "cover":"https://strapi-h2ev.onrender.com/uploads/Vieux_Grimoire_Showcase_Image_4f4a3b5f10.webp",
         "title":"Mon Vieux Grimoire",
         "description":"Réalisation du projet Mon Vieux Grimoire, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",

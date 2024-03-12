@@ -217,19 +217,21 @@ body {
       .projectCard{
         filter: blur(5px);
       }
-      button{
-       position:absolute;
-        display: inline-block;
-        border-radius: 15px;
-        font-size: 25px;
-        color: white;
-        border-color: white;
-        background-color:$primary-color;
-        text-shadow: 5px 5px 10px black;
-        box-shadow:white 1px 2px 3px 3px,;
-        cursor: pointer;
-        padding: 12px;
-    }
+      a{
+        position: absolute;
+        button{
+          display: inline-block;
+          border-radius: 15px;
+          font-size: 25px;
+          color: white;
+          border-color: white;
+          background-color:$primary-color;
+          text-shadow: 5px 5px 10px black;
+          box-shadow:white 1px 2px 3px 3px,;
+          cursor: pointer;
+          padding: 12px;
+      }
+      }
     }
   }
 }
