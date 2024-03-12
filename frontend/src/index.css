@@ -200,8 +200,10 @@ code {
 .projectsSection .projectsCards .projectInfos:hover .projectCard {
   filter: blur(5px);
 }
-.projectsSection .projectsCards .projectInfos:hover button {
+.projectsSection .projectsCards .projectInfos:hover a {
   position: absolute;
+}
+.projectsSection .projectsCards .projectInfos:hover a button {
   display: inline-block;
   border-radius: 15px;
   font-size: 25px;
