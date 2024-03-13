@@ -236,5 +236,29 @@ body {
   }
 }
 
+.projectDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  .linkToBack{
+    align-self: baseline;
+    i{
+      position: relative;
+      margin: 20px;
+      font-size: 25px;
+      color: black;
+    }
+  }
+  img{
+    width: 60%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  p{
+    margin: 15px;
+  }
+}
+
 
 

@@ -1,8 +1,8 @@
-function Projects ({cover,title,tags,id}) {
+function Card ({cover,title,tags,id}) {
     return (
         <div className='projectInfos'>
             <div className="projectCard">
-                <img src={cover} alt="couverture du projet" /> 
+                <img src={cover} alt="couverture du projet" />
                 <h4>{title} </h4>
             </div>
             <a href={`/project/${id}`} ><button>Voir les détails</button></a>
@@ -12,4 +12,4 @@ function Projects ({cover,title,tags,id}) {
         </div>
     )
 }
-export default Projects
+export default Card
