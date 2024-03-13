@@ -2,7 +2,7 @@ import PagePresentation from '../Components/PagePresentation/PagePresentation'
 import About from '../Components/About/About'
 import Skills from '../Components/Skills/Skills'
 import dataSkills from '../datas/skills.json'
-import Projects from '../Components/Projects/Projects'
+import Projects from '../Components/Card/Card'
 import dataProjects from '../datas/projects.json'
 
 function Home (){
