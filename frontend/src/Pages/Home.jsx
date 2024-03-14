@@ -9,7 +9,8 @@ function Home (){
     return (
         <div>
             <PagePresentation/>
-            <About/>
+            <div id='about'><About/></div>
+            <div id='skills'>
             <div className='skillsSection'>
                 <h2>Mes compétences</h2>
                 <div className="skillsCards">
@@ -21,6 +22,8 @@ function Home (){
                     )}
                 </div>
             </div>
+            </div>
+            <div id='projects'>
             <div className='projectsSection'>
                 <h2>Mes projets</h2>
                 <div className='projectsCards'>
@@ -34,6 +37,7 @@ function Home (){
                         tags={project.tags}/>)
                     }
                 </div>
+            </div>
             </div>
         </div>
     )

@@ -5,10 +5,10 @@ function Header () {
                 <p>Darlène Moundounga</p>
             </div>
             <nav className="headerSections">
-                <p>A propos</p>
-                <p>Compétences</p>
-                <p>Projets</p>
-                <p>Contactez-moi</p>
+                <a href="#about"> A propos</a>
+                <a href="#skills">Compétences</a>
+                <a href="#projects">Projets</a>
+                <a href="#contactForm">Contactez-moi</a>
             </nav>
         </div>
     )
