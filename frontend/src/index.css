@@ -34,9 +34,11 @@ code {
   font-size: 18px;
   font-weight: 600;
 }
-.header p {
+.header a {
   padding: 5px;
   margin: 5px;
+  text-decoration: none;
+  color: black;
 }
 
 .pagePresentation {
@@ -80,48 +82,48 @@ code {
   padding: 10px;
 }
 
-.aboutMe {
+#aboutMe {
   display: flex;
   align-items: center;
   margin: 50px;
   flex-direction: column;
 }
-.aboutMe h2 {
+#aboutMe h2 {
   margin: 0;
 }
-.aboutMe .aboutInfos {
+#aboutMe .aboutInfos {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 60px;
 }
-.aboutMe .aboutInfos p {
+#aboutMe .aboutInfos p {
   max-width: 700px;
 }
-.aboutMe .aboutInfos img {
+#aboutMe .aboutInfos img {
   border-radius: 200px;
   width: 300px;
   height: 300px;
 }
 
-.skillsSection {
+#skillsSection {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.skillsSection h2 {
+#skillsSection h2 {
   margin-bottom: 35px;
   display: flex;
   justify-content: center;
 }
-.skillsSection .skillsCards {
+#skillsSection .skillsCards {
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
   margin: 15px;
   gap: 20px;
 }
-.skillsSection .skillsCards .skillCard {
+#skillsSection .skillsCards .skillCard {
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -133,35 +135,35 @@ code {
   cursor: pointer;
   box-shadow: rgb(147, 109, 183) 3px 2px 5px 1px;
 }
-.skillsSection .skillsCards .skillCard p {
+#skillsSection .skillsCards .skillCard p {
   display: none;
 }
-.skillsSection .skillsCards .skillCard:hover p {
+#skillsSection .skillsCards .skillCard:hover p {
   display: block;
 }
 
-.projectsSection {
+#projectsSection {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 35px;
   background-color: #F8F8FA;
 }
-.projectsSection .projectsCards {
+#projectsSection .projectsCards {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
 }
-.projectsSection .projectsCards .projectInfos {
+#projectsSection .projectsCards .projectInfos {
   max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.projectsSection .projectsCards .projectInfos .projectCard {
+#projectsSection .projectsCards .projectInfos .projectCard {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -170,19 +172,19 @@ code {
   align-items: center;
   background-color: rgb(230, 225, 235);
 }
-.projectsSection .projectsCards .projectInfos .projectCard img {
+#projectsSection .projectsCards .projectInfos .projectCard img {
   width: 100%;
   height: 80%;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
-.projectsSection .projectsCards .projectInfos .projectCard h4 {
+#projectsSection .projectsCards .projectInfos .projectCard h4 {
   margin: 10px;
 }
-.projectsSection .projectsCards .projectInfos button {
+#projectsSection .projectsCards .projectInfos button {
   display: none;
 }
-.projectsSection .projectsCards .projectInfos ul {
+#projectsSection .projectsCards .projectInfos ul {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -190,7 +192,7 @@ code {
   padding: 0;
   align-items: center;
 }
-.projectsSection .projectsCards .projectInfos ul li {
+#projectsSection .projectsCards .projectInfos ul li {
   list-style-type: none;
   border: 1px solid #E8FDFD;
   border-radius: 20px;
@@ -198,13 +200,13 @@ code {
   background-color: #C9B6DB;
   font-size: 10px;
 }
-.projectsSection .projectsCards .projectInfos:hover .projectCard {
+#projectsSection .projectsCards .projectInfos:hover .projectCard {
   filter: blur(5px);
 }
-.projectsSection .projectsCards .projectInfos:hover a {
+#projectsSection .projectsCards .projectInfos:hover a {
   position: absolute;
 }
-.projectsSection .projectsCards .projectInfos:hover a button {
+#projectsSection .projectsCards .projectInfos:hover a button {
   display: inline-block;
   border-radius: 15px;
   font-size: 25px;
@@ -241,7 +243,7 @@ code {
   margin: 15px;
 }
 
-.contact {
+#contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,27 +252,27 @@ code {
   margin-top: 50px;
   background-color: #C9B6DB;
 }
-.contact h3 {
+#contact h3 {
   font-size: 40px;
 }
-.contact .form {
+#contact .form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.contact .form .infos {
+#contact .form .infos {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-.contact .form input {
+#contact .form input {
   width: 300px;
   height: 2em;
 }
-.contact .form input, .contact .form textarea {
+#contact .form input, #contact .form textarea {
   font-size: 18px;
 }
-.contact button {
+#contact button {
   width: 10em;
   border-radius: 15px;
   font-size: 15px;

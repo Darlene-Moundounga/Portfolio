@@ -41,9 +41,11 @@ body {
       font-size: 18px;
       font-weight: 600;
     }
-    p{
+    a{
       padding: 5px;
       margin: 5px;
+      text-decoration: none;
+      color: black;
     }
   }
 
@@ -91,7 +93,7 @@ body {
    }
   }
   
-  .aboutMe{
+  #aboutMe{
     display: flex;
     align-items: center;
     margin: 50px;
@@ -116,7 +118,7 @@ body {
   }
 
 
-.skillsSection{
+#skillsSection{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,7 +157,7 @@ body {
   }
 }
 
-.projectsSection{
+#projectsSection{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -261,7 +263,7 @@ body {
   }
 }
 
-.contact{
+#contact{
   display: flex;
   flex-direction: column;
   align-items: center;

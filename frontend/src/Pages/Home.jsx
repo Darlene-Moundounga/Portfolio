@@ -9,9 +9,8 @@ function Home (){
     return (
         <div>
             <PagePresentation/>
-            <div id='about'><About/></div>
-            <div id='skills'>
-            <div className='skillsSection'>
+            <About/>
+            <div id='skillsSection'>
                 <h2>Mes compétences</h2>
                 <div className="skillsCards">
                     {dataSkills.map((skill) => 
@@ -22,9 +21,8 @@ function Home (){
                     )}
                 </div>
             </div>
-            </div>
-            <div id='projects'>
-            <div className='projectsSection'>
+            
+            <div id='projectsSection'>
                 <h2>Mes projets</h2>
                 <div className='projectsCards'>
                     {
@@ -37,7 +35,6 @@ function Home (){
                         tags={project.tags}/>)
                     }
                 </div>
-            </div>
             </div>
         </div>
     )

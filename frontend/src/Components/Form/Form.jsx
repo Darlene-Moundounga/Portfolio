@@ -1,7 +1,6 @@
 function Form () {
     return(
-        <div id="contactForm">
-            <div className="contact">
+            <div id="contact">
                 <h3>Contactez moi !</h3>
                 <div className="form">
                     <div className="infos">
@@ -11,7 +10,7 @@ function Form () {
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                 </div>
                 <button>Envoyer</button>
-            </div>
+
         </div>
     )
 }

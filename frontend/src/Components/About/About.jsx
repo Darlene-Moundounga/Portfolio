@@ -2,7 +2,7 @@ import aboutMeImage from '../../assets/aboutImage.png'
 
 function About () {
     return (
-        <div className='aboutMe'>
+        <div id='aboutMe'>
             <h2>Qui suis-je ?</h2>
             <div className='aboutInfos'>
                 <img src={aboutMeImage} alt="Image représentant Moundounga Darlène" />
