@@ -249,6 +249,16 @@ code {
   width: 90%;
   object-fit: cover;
 }
+.projectDetails ul {
+  display: flex;
+  gap: 25px;
+}
+.projectDetails ul li {
+  list-style-type: none;
+  background-color: #BA55D3;
+  border-radius: 15px;
+  padding: 15px;
+}
 .projectDetails p {
   margin: 15px;
 }

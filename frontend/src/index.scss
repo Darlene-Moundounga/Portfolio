@@ -5,6 +5,7 @@
 
 $primary-color:#DDD7F1;
 $secondary-color: #E8FDFD;
+$violet:#BA55D3;
 
 
 body {
@@ -266,6 +267,18 @@ body {
         width: 90%;
         object-fit: cover;
       }
+    }
+  }
+  ul{
+    display: flex;
+    gap: 25px;
+    
+    
+    li{
+      list-style-type: none;
+      background-color: #BA55D3;
+      border-radius: 15px;
+      padding: 15px;
     }
   }
   p{
