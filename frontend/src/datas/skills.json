@@ -1,32 +1,26 @@
 [
     {
         "id":"kzopdl56464",
-        "title":"HTML & CSS/SASS",
-        "description":["-Réalisation de sites web en HTML et CSS", "-Respect d'une maquette","-Utilisation de SASS pour le CSS"]
+        "title":"HTML & CSS/SASS"
     },
     {
         "id":"cidpomd4545",
-        "title":"Javascript & ReactJS",
-        "description":["-Réalisation de site web dynamique", "-Javascript et/ou ReactJS", "-Communication avec des API"]
+        "title":"Javascript & ReactJS"
     },
     {
         "id":"ecfcc5444",
-        "title":"NodeJS/ExpressJS & MongoDB",
-        "description":["-Gérer la partie back-end avec un serveur", "-Stockage sécurisé des données", "-Pratique du Green Code", "-Permettre une authentification sécurisée"]
+        "title":"NodeJS/ExpressJS & MongoDB"
     },
     {
         "id":"dddeded44454",
-        "title":"Git & GitHub",
-        "description":"-Versionner les projets avec Git et GitHub"
+        "title":"Git & GitHub"
     },
     {
         "id":"cfdcsdfc45545",
-        "title":"Optimisation et Debug",
-        "description":["-Optimisation du SEO (Référencement)", "-Accessibilité", "-Performances","-Debug du site"]
+        "title":"Optimisation et Debug"
     },
     {
         "id":"efkieojfo5415454",
-        "title":"Gestion de Projet",
-        "description":["-Planification du développement d'un site", "-Spécifications techniques", "-Veille technologique", "-Méthodes agiles et Kanban"]
+        "title":"Gestion de Projet"
     }
 ]

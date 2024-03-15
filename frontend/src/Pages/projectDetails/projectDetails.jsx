@@ -27,7 +27,7 @@ function projectDetails ({id}){
                 <h2>{project.title}</h2>
                 <p>{project.description} </p>
                 
-                <a href={project.link} >Lien vers le site</a>
+                <a href={project.link}  className='linkToProject'>Lien vers {project.title} </a>
             </div>
         )
     }       
