@@ -8,9 +8,21 @@ function projectDetails ({id}){
         return (
             <div className='projectDetails'>
                 <a href="/" className='linkToBack'><i className="fa-regular fa-circle-left"></i></a>
-                <img src={project.image} alt="" />
+                <div>
+                    {
+                        project.images.map((image,index)=> {
+                            return (
+                                <div key={index}> <img src={image} alt="" /></div>
+                            )
+                        }
+                        
+                        )
+                    }
+                </div>
                 <ul>
-                    <li>{project.tags} </li>
+                    {project.tags.map((tag, index) => (
+                        <li key={index}>{tag}</li>
+                    ))}
                 </ul>
                 <h2>{project.title}</h2>
                 <p>{project.description} </p>
