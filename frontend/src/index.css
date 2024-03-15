@@ -234,9 +234,19 @@ code {
   font-size: 25px;
   color: black;
 }
-.projectDetails img {
-  width: 60%;
+.projectDetails .imagesProject {
+  display: flex;
+  margin: 30px;
+}
+.projectDetails .imagesProject div {
+  display: flex;
+  justify-content: center;
+}
+.projectDetails .imagesProject div img {
   max-height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  width: 90%;
   object-fit: cover;
 }
 .projectDetails p {

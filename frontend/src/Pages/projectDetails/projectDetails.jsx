@@ -8,7 +8,7 @@ function projectDetails ({id}){
         return (
             <div className='projectDetails'>
                 <a href="/" className='linkToBack'><i className="fa-regular fa-circle-left"></i></a>
-                <div>
+                <div className='imagesProject'>
                     {
                         project.images.map((image,index)=> {
                             return (

@@ -253,10 +253,20 @@ body {
       color: black;
     }
   }
-  img{
-    width: 30%;
-    max-height: 500px;
-    object-fit: cover;
+  .imagesProject{
+    display: flex;
+    margin: 30px;
+    div{
+      display: flex;
+      justify-content: center;
+      img{
+        max-height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        width: 90%;
+        object-fit: cover;
+      }
+    }
   }
   p{
     margin: 15px;
