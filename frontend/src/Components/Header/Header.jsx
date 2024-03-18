@@ -2,7 +2,7 @@ function Header () {
     return (
         <div className="header">
             <div className="headerTitle">
-                <p>Darlène Moundounga</p>
+                <a href="/"><p>Darlène Moundounga</p></a>
             </div>
             <nav className="headerSections">
                 <a href="#aboutMe"> A propos</a>

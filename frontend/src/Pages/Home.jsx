@@ -16,8 +16,7 @@ function Home (){
                     {dataSkills.map((skill) => 
                         <Skills 
                         key={skill.id}
-                        title={skill.title} 
-                        description={skill.description}/>
+                        title={skill.title}/>
                     )}
                 </div>
             </div>
@@ -31,8 +30,7 @@ function Home (){
                         key={project.id}
                         id={project.id}
                         cover={project.cover}
-                        title={project.title}
-                        tags={project.tags}/>)
+                        title={project.title}/>)
                     }
                 </div>
             </div>
