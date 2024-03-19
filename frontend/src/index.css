@@ -48,6 +48,7 @@ code {
   }
   100% {
     background-position: -100%;
+    background-color: white;
   }
 }
 .pagePresentation {
@@ -92,7 +93,7 @@ code {
   transition: background-position 0.5s;
 }
 .pagePresentation button:hover {
-  animation: bounce-to-right 0.5s;
+  animation: bounce-to-right 0.5s forwards;
 }
 
 #aboutMe {
@@ -289,17 +290,17 @@ code {
   gap: 25px;
   padding: 0;
 }
-.projectDetails ul li {
+.projectDetails ul .projectTag {
   list-style-type: none;
   background-color: #afb6e5;
   border-radius: 15px;
   padding: 15px;
   border: 0.5px solid white;
 }
-.projectDetails p {
-  max-width: 800px;
-  text-align: justify;
-  line-height: 24px;
+.projectDetails .descriptionSection {
+  display: flex;
+  flex-direction: column;
+  list-style-type: square;
 }
 .projectDetails .linkToProject {
   text-decoration: none;
@@ -312,9 +313,15 @@ code {
   display: flex;
   align-items: center;
   gap: 10px;
+  background: linear-gradient(to right, #c9b2c5 50%, white 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
 }
 .projectDetails .linkToProject img {
   width: 20px;
+}
+.projectDetails .linkToProject:hover {
+  animation: bounce-to-right 0.8s forwards;
 }
 
 #contact {

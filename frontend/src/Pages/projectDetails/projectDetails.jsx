@@ -22,13 +22,20 @@ function projectDetails ({id}){
                 </div>
                 <ul>
                     {project.tags.map((tag, index) => (
-                        <li key={index}>{tag}</li>
+                        <li key={index} className='projectTag'>{tag}</li>
                     ))}
                 </ul>
                 <h2>{project.title}</h2>
-                <p>{project.description} </p>
+                <ul className='descriptionSection'>{project.descriptions.map((description,index)=>
+                        ( 
+                            <li key={index} className='projectDescription'>{description} </li>
+                        )
+                    )} 
+                </ul>
                 
-                <a href={project.link}  className='linkToProject'>Lien vers {project.title} <img src="https://cdn-icons-png.flaticon.com/128/6364/6364375.png" alt="" /> </a>
+                <a href={project.link}  className='linkToProject'>Lien vers {project.title} 
+                    <img src="https://cdn-icons-png.flaticon.com/128/6364/6364375.png" alt="" /> 
+                </a>
                 <Form/>
             </div>
         )
