@@ -7,7 +7,6 @@ function Layout ( {children} ) {
     <React.Fragment>
             <Header/>
             {children}
-            <Form/>
     </React.Fragment>
     )
 }

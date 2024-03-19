@@ -1,3 +1,4 @@
+import Form from '../../Components/Form/Form'
 import projects from '../../datas/projects.json'
 
 function projectDetails ({id}){
@@ -28,6 +29,7 @@ function projectDetails ({id}){
                 <p>{project.description} </p>
                 
                 <a href={project.link}  className='linkToProject'>Lien vers {project.title} </a>
+                <Form/>
             </div>
         )
     }       

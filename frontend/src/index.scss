@@ -3,11 +3,13 @@
   src: url(./police/Lovelo-LineLight.woff) format('woff');
 }
 
+
 $primary-color:linear-gradient(90deg, #c9b2c5,#afb6e5);
 $secondary-color: #E8FDFD;
 $violet:#c9b2c5;
 $blue:#afb6e5;
 
+@import url('./Pages/Error/_error.scss'); 
 
 body {
     font-family: "Ubuntu", sans-serif;
@@ -83,14 +85,14 @@ body {
     text-shadow: 0.1em 0.1em 1em black;
    }
 
-   a{
-    color: white;
+   button{
     font-size: 20px;
     text-decoration: none;
-    border: 0.5px solid white;
+    border: 3px solid white;
     border-radius: 15px;
     padding: 10px;
     box-shadow: 1px 4px 12px black;
+    background: $primary-color;
    }
   }
   

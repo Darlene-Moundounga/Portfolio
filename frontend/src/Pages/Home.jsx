@@ -4,6 +4,7 @@ import Skills from '../Components/Skills/Skills'
 import dataSkills from '../datas/skills.json'
 import Projects from '../Components/Card/Card'
 import dataProjects from '../datas/projects.json'
+import Form from '../Components/Form/Form'
 
 function Home (){
     return (
@@ -34,6 +35,7 @@ function Home (){
                     }
                 </div>
             </div>
+            <Form/>
         </div>
     )
 }

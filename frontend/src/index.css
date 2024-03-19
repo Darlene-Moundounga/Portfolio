@@ -1,3 +1,4 @@
+@import url("./Pages/Error/_error.scss");
 @font-face {
   font-family: "Lovelo Line";
   src: url(./police/Lovelo-LineLight.woff) format("woff");
@@ -71,14 +72,14 @@ code {
 .pagePresentation p, .pagePresentation a, .pagePresentation h1 {
   text-shadow: 0.1em 0.1em 1em black;
 }
-.pagePresentation a {
-  color: white;
+.pagePresentation button {
   font-size: 20px;
   text-decoration: none;
-  border: 0.5px solid white;
+  border: 3px solid white;
   border-radius: 15px;
   padding: 10px;
   box-shadow: 1px 4px 12px black;
+  background: linear-gradient(90deg, #c9b2c5, #afb6e5);
 }
 
 #aboutMe {
