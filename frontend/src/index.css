@@ -75,11 +75,11 @@ code {
 .pagePresentation button {
   font-size: 20px;
   text-decoration: none;
-  border: 3px solid white;
+  border: 0.5px solid white;
   border-radius: 15px;
   padding: 10px;
   box-shadow: 1px 4px 12px black;
-  background: linear-gradient(90deg, #c9b2c5, #afb6e5);
+  background: linear-gradient(white, #afb6e5);
 }
 
 #aboutMe {
@@ -159,7 +159,7 @@ code {
   align-items: center;
   margin: 35px;
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 15px;
   padding: 30px;
 }
@@ -182,7 +182,7 @@ code {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  width: 400px;
+  width: 370px;
   height: 400px;
   align-items: center;
   background-color: rgb(230, 225, 235);
@@ -193,7 +193,7 @@ code {
   width: 100%;
   height: 90%;
   border-radius: 20px 20px 0 0;
-  object-fit: fill;
+  object-fit: cover;
 }
 #projectsSection .projectsCards .projectInfos .projectCard h4 {
   margin: 10px;
@@ -201,24 +201,8 @@ code {
 #projectsSection .projectsCards .projectInfos button {
   display: none;
 }
-#projectsSection .projectsCards .projectInfos ul {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 0;
-  align-items: center;
-}
-#projectsSection .projectsCards .projectInfos ul li {
-  list-style-type: none;
-  border: 1px solid #E8FDFD;
-  border-radius: 20px;
-  padding: 10px;
-  background-color: #afb6e5;
-  font-size: 10px;
-}
 #projectsSection .projectsCards .projectInfos:hover .projectCard {
-  filter: blur(5px);
+  filter: brightness(40%);
 }
 #projectsSection .projectsCards .projectInfos:hover a {
   position: absolute;
@@ -228,10 +212,10 @@ code {
   border-radius: 15px;
   font-size: 25px;
   color: white;
-  border: 3px solid white;
+  border: 1px solid white;
   background: linear-gradient(90deg, #c9b2c5, #afb6e5);
   text-shadow: 3px 2px 4px black;
-  box-shadow: #c9b2c5 1px 1px 6px 5px;
+  box-shadow: #c9b2c5 1px 1px 10px 5px;
   cursor: pointer;
   padding: 12px;
 }
@@ -243,13 +227,17 @@ code {
   margin-bottom: 20px;
 }
 .projectDetails .linkToBack {
+  display: flex;
   align-self: baseline;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 .projectDetails .linkToBack i {
   position: relative;
   margin: 20px;
-  font-size: 25px;
-  color: white;
+  font-size: 40px;
+  color: black;
 }
 .projectDetails .imagesProject {
   display: flex;
@@ -286,8 +274,17 @@ code {
 .projectDetails .linkToProject {
   text-decoration: none;
   color: black;
-  padding: 15px;
-  border: 1px solid white;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 4px 5px black;
+  background: linear-gradient(white, #c9b2c5);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.projectDetails .linkToProject img {
+  width: 20px;
 }
 
 #contact {

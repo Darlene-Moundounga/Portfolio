@@ -8,7 +8,7 @@ function projectDetails ({id}){
     }else{
         return (
             <div className='projectDetails'>
-                <a href="/" className='linkToBack'><i className="fa-regular fa-circle-left"></i></a>
+                <a href="/" className='linkToBack'><i className="fa-regular fa-circle-left"></i>Revenir à l'accueil</a>
                 <div className='imagesProject'>
                     {
                         project.images.map((image,index)=> {
@@ -28,7 +28,7 @@ function projectDetails ({id}){
                 <h2>{project.title}</h2>
                 <p>{project.description} </p>
                 
-                <a href={project.link}  className='linkToProject'>Lien vers {project.title} </a>
+                <a href={project.link}  className='linkToProject'>Lien vers {project.title} <img src="https://cdn-icons-png.flaticon.com/128/6364/6364375.png" alt="" /> </a>
                 <Form/>
             </div>
         )
