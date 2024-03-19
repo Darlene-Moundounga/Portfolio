@@ -53,6 +53,15 @@ body {
     }
   }
 
+
+  @keyframes bounce-to-right {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: -100%;
+    }
+  }
   .pagePresentation{
     display: flex;
     align-items: center;
@@ -92,7 +101,12 @@ body {
     border-radius: 15px;
     padding: 10px;
     box-shadow: 1px 4px 12px black;
-    background: linear-gradient(white,$blue);
+    background: linear-gradient(to right, $blue 50%, white 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+   }
+   button:hover{
+    animation: bounce-to-right 0.5s ;
    }
   }
   
@@ -164,10 +178,25 @@ body {
     }
 
     .skillCard:hover{
-      p{
-        display: block;
-      }
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
     }
+  }
+}
+
+@keyframes hang {
+  0% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
   }
 }
 
@@ -222,6 +251,7 @@ body {
       
       .projectCard{
         filter: brightness(40%);
+        animation: hang 1s infinite;
       }
       a{
         position: absolute;

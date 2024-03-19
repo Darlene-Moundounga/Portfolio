@@ -42,6 +42,14 @@ code {
   color: black;
 }
 
+@keyframes bounce-to-right {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
 .pagePresentation {
   display: flex;
   align-items: center;
@@ -79,7 +87,12 @@ code {
   border-radius: 15px;
   padding: 10px;
   box-shadow: 1px 4px 12px black;
-  background: linear-gradient(white, #afb6e5);
+  background: linear-gradient(to right, #afb6e5 50%, white 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+}
+.pagePresentation button:hover {
+  animation: bounce-to-right 0.5s;
 }
 
 #aboutMe {
@@ -149,10 +162,26 @@ code {
 #skillsSection .skillsCards .skillCard h3 {
   padding: 5px;
 }
-#skillsSection .skillsCards .skillCard:hover p {
-  display: block;
+#skillsSection .skillsCards .skillCard:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 
+@keyframes hang {
+  0% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
 #projectsSection {
   display: flex;
   flex-direction: column;
@@ -203,6 +232,7 @@ code {
 }
 #projectsSection .projectsCards .projectInfos:hover .projectCard {
   filter: brightness(40%);
+  animation: hang 1s infinite;
 }
 #projectsSection .projectsCards .projectInfos:hover a {
   position: absolute;
