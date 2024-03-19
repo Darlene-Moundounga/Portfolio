@@ -5,9 +5,9 @@ function Header () {
                 <a href="/"><p>Darlène Moundounga</p></a>
             </div>
             <nav className="headerSections">
-                <a href="#aboutMe"> A propos</a>
-                <a href="#skillsSection">Compétences</a>
-                <a href="#projectsSection">Projets</a>
+                <a href="/#aboutMe"> A propos</a>
+                <a href="/#skillsSection">Compétences</a>
+                <a href="/#projectsSection">Projets</a>
                 <a href="#contact">Contactez-moi</a>
             </nav>
         </div>

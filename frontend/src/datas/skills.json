@@ -1,26 +1,39 @@
 [
     {
-        "id":"kzopdl56464",
-        "title":"HTML & CSS/SASS"
+        "title":"HTML",
+        "image":"https://cdn-icons-png.flaticon.com/128/888/888859.png"
+        
     },
     {
-        "id":"cidpomd4545",
-        "title":"Javascript & ReactJS"
+        "title":"CSS/SASS",
+        "image":"https://cdn-icons-png.flaticon.com/128/732/732190.png"
     },
     {
-        "id":"ecfcc5444",
-        "title":"NodeJS/ExpressJS & MongoDB"
+        "title":"Javascript",
+        "image":"https://cdn-icons-png.flaticon.com/128/5047/5047147.png"
     },
     {
-        "id":"dddeded44454",
-        "title":"Git & GitHub"
+        "title":"ReactJS",
+        "image":"https://cdn-icons-png.flaticon.com/128/10832/10832132.png"
     },
     {
-        "id":"cfdcsdfc45545",
-        "title":"Optimisation et Debug"
+        "title":"NodeJS/ExpressJS",
+        "image":"https://cdn-icons-png.flaticon.com/128/919/919825.png"
     },
     {
-        "id":"efkieojfo5415454",
-        "title":"Gestion de Projet"
+        "title":"MongoDB",
+        "image":"https://cdn-icons-png.flaticon.com/128/5405/5405131.png"
+    },
+    {
+        "title":"Git & GitHub",
+        "image":"https://cdn-icons-png.flaticon.com/128/25/25231.png"
+    },
+    {
+        "title":"Optimisation et Debug",
+        "image":"https://cdn-icons-png.flaticon.com/512/2082/2082114.png"
+    },
+    {
+        "title":"Gestion de Projet",
+        "image":"https://cdn-icons-png.flaticon.com/512/3286/3286792.png"
     }
 ]

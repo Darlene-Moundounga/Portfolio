@@ -1,9 +1,9 @@
 
-function Skills ({title,description}){
+function Skills ({title,image}){
     return(
         <div className="skillCard">
-            <h3>{title}</h3>
-            <p>{description}</p>
+            <img src={image} alt="" />
+            <h4>{title}</h4>
         </div>
     )
 }

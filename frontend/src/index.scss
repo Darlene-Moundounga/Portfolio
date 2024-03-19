@@ -144,12 +144,23 @@ body {
     .skillCard{
       border-radius:100%;
       display: flex;
-      width: 10%;
+      flex-direction: column;
+      width: 120px;
+      height: 120px;
       padding: 24px;
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      box-shadow: white 1px 1px 8px 2px,;
+      box-shadow: white -0.5px -0.5px 3px 1px,;
+      background: $primary-color;
+      img{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+      }
+      h3{
+       padding: 5px;
+      }
     }
 
     .skillCard:hover{

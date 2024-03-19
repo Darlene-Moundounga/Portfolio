@@ -16,8 +16,9 @@ function Home (){
                 <div className="skillsCards">
                     {dataSkills.map((skill) => 
                         <Skills 
-                        key={skill.id}
-                        title={skill.title}/>
+                        key={skill.title}
+                        title={skill.title}
+                        image={skill.image}/>
                     )}
                 </div>
             </div>
