@@ -5,6 +5,7 @@
     flex-wrap:wrap;
     align-items: center;
     border-bottom:1px solid white ;
+    padding: 15px;
 
     .headerTitle{
       font-size: 25px;
@@ -24,5 +25,18 @@
       margin: 5px;
       text-decoration: none;
       color: black;
+      transition: transform 0.3s ease;
+    }
+    a:hover {
+      transform: translateY(-5px); 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header {
+      justify-content: center;
+      .headerSections{
+        gap: 0;
+      }
     }
   }

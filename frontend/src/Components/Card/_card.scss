@@ -24,7 +24,7 @@
           display: flex;
           flex-direction: column;
           border-radius: 20px;
-          width: 370px;
+          max-width: 370px;
           height: 400px;
           align-items: center;
           background-color: rgb(230, 225, 235);
@@ -64,5 +64,12 @@
         }
         }
       }
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    #projectsSection .projectsCards .projectInfos .projectCard {
+      width: 275px;
+      height: 250px;
     }
   }

@@ -30,7 +30,7 @@ body {
   @import url(./Components/Card/_card.scss);
   @import url(./Pages/projectDetails/_projectDetails.scss);
   @import url(./Components/Form/_form.scss);
-
+  @import url(./Components/Footer/_footer.scss);
 
 
   @keyframes bounce-to-right {
@@ -43,7 +43,7 @@ body {
     }
 }
   .goToProject{
-    background: linear-gradient(to right, #afb6e5 50%, white 50%);
+    background: linear-gradient(to right, #b7bad4 50%, white 50%);
     background-size: 200% 100%;
     transition: background-position 0.5s;
     }
@@ -52,7 +52,7 @@ body {
     }
 
 .linkToProject{
-    background: linear-gradient(to right, $violet 50%, white 50%);
+    background: linear-gradient(to right, #f0dbff 50%, white 50%);
     background-size: 200% 100%;
     transition: background-position 0.5s;
 }
