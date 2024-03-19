@@ -1,0 +1,25 @@
+#aboutMe{
+    display: flex;
+    align-items: center;
+    margin: 150px;
+    flex-direction: column;
+    h2{
+      margin: 0;
+    }
+    .aboutInfos{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 60px;
+      p{
+        max-width: 700px;
+        text-align: justify;
+        line-height: 25px;
+      }
+      img{
+        border-radius: 50%;
+        width: 100%;
+        max-height: 300px;
+      }
+    }
+  }

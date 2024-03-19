@@ -1,4 +1,11 @@
-@import url("./Pages/Error/_error.scss");
+@import url(./Components/Header/_header.scss);
+@import url(./Pages/Error/_error.scss);
+@import url(./Components/PagePresentation/_pagePresentation.scss);
+@import url(./Components/About/_about.scss);
+@import url(./Components/Skills/_skills.scss);
+@import url(./Components/Card/_card.scss);
+@import url(./Pages/projectDetails/_projectDetails.scss);
+@import url(./Components/Form/_form.scss);
 @font-face {
   font-family: "Lovelo Line";
   src: url(./police/Lovelo-LineLight.woff) format("woff");
@@ -15,33 +22,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin: 12px;
-  flex-wrap: wrap;
-  align-items: center;
-  border-bottom: 1px solid white;
-}
-.header .headerTitle {
-  font-size: 25px;
-  font-weight: 800;
-}
-.header .headerSections {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 20px;
-  font-size: 18px;
-  font-weight: 600;
-}
-.header a {
-  padding: 5px;
-  margin: 5px;
-  text-decoration: none;
-  color: black;
-}
-
 @keyframes bounce-to-right {
   0% {
     background-position: 0%;
@@ -51,122 +31,24 @@ code {
     background-color: white;
   }
 }
-.pagePresentation {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 100px;
-}
-.pagePresentation h1 {
-  font-family: "Lovelo Line";
-  font-size: 60px;
-  width: auto;
-  text-align: center;
-  color: white;
-}
-.pagePresentation .subtitlePage {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  align-items: center;
-}
-.pagePresentation .subtitlePage p {
-  font-size: 40px;
-  color: white;
-}
-.pagePresentation .subtitlePage img {
-  width: 100px;
-  height: 100px;
-}
-.pagePresentation p, .pagePresentation a, .pagePresentation h1 {
-  text-shadow: 0.1em 0.1em 1em black;
-}
-.pagePresentation button {
-  font-size: 20px;
-  text-decoration: none;
-  border: 0.5px solid white;
-  border-radius: 15px;
-  padding: 10px;
-  box-shadow: 1px 4px 12px black;
+.goToProject {
   background: linear-gradient(to right, #afb6e5 50%, white 50%);
   background-size: 200% 100%;
   transition: background-position 0.5s;
 }
-.pagePresentation button:hover {
+
+.goToProject:hover {
   animation: bounce-to-right 0.5s forwards;
 }
 
-#aboutMe {
-  display: flex;
-  align-items: center;
-  margin: 150px;
-  flex-direction: column;
-}
-#aboutMe h2 {
-  margin: 0;
-}
-#aboutMe .aboutInfos {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 60px;
-}
-#aboutMe .aboutInfos p {
-  max-width: 700px;
-  text-align: justify;
-  line-height: 25px;
-}
-#aboutMe .aboutInfos img {
-  border-radius: 50%;
-  width: 100%;
-  max-height: 300px;
+.linkToProject {
+  background: linear-gradient(to right, #c9b2c5 50%, white 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
 }
 
-#skillsSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 100px;
-}
-#skillsSection h2 {
-  margin-bottom: 35px;
-  display: flex;
-  justify-content: center;
-}
-#skillsSection .skillsCards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-  margin: 15px;
-  gap: 20px;
-  width: 100%;
-  justify-content: center;
-}
-#skillsSection .skillsCards .skillCard {
-  border-radius: 100%;
-  display: flex;
-  flex-direction: column;
-  width: 120px;
-  height: 120px;
-  padding: 24px;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: white -0.5px -0.5px 3px 1px;
-  background: linear-gradient(90deg, #c9b2c5, #afb6e5);
-}
-#skillsSection .skillsCards .skillCard img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}
-#skillsSection .skillsCards .skillCard h3 {
-  padding: 5px;
-}
-#skillsSection .skillsCards .skillCard:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+.linkToProject:hover {
+  animation: bounce-to-right 0.8s forwards;
 }
 
 @keyframes hang {
@@ -183,189 +65,12 @@ code {
     transform: translateY(8px);
   }
 }
-#projectsSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 35px;
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
-  padding: 30px;
-}
-#projectsSection .projectsCards {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-}
-#projectsSection .projectsCards .projectInfos {
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-#projectsSection .projectsCards .projectInfos .projectCard {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  width: 370px;
-  height: 400px;
-  align-items: center;
-  background-color: rgb(230, 225, 235);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  padding-bottom: 25px;
-}
-#projectsSection .projectsCards .projectInfos .projectCard img {
-  width: 100%;
-  height: 90%;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-#projectsSection .projectsCards .projectInfos .projectCard h4 {
-  margin: 10px;
-}
-#projectsSection .projectsCards .projectInfos button {
-  display: none;
-}
-#projectsSection .projectsCards .projectInfos:hover .projectCard {
-  filter: brightness(40%);
+.projectInfos:hover .projectCard {
   animation: hang 1s infinite;
 }
-#projectsSection .projectsCards .projectInfos:hover a {
-  position: absolute;
-}
-#projectsSection .projectsCards .projectInfos:hover a button {
-  display: inline-block;
-  border-radius: 15px;
-  font-size: 25px;
-  color: white;
-  border: 1px solid white;
-  background: linear-gradient(90deg, #c9b2c5, #afb6e5);
-  text-shadow: 3px 2px 4px black;
+.projectInfos:hover button {
   box-shadow: #c9b2c5 1px 1px 10px 5px;
-  cursor: pointer;
-  padding: 12px;
-}
-
-.projectDetails {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.projectDetails .linkToBack {
-  display: flex;
-  align-self: baseline;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-}
-.projectDetails .linkToBack i {
-  position: relative;
-  margin: 20px;
-  font-size: 40px;
-  color: black;
-}
-.projectDetails .imagesProject {
-  display: flex;
-  margin: 30px;
-}
-.projectDetails .imagesProject div {
-  display: flex;
-  justify-content: center;
-}
-.projectDetails .imagesProject div img {
-  max-height: 500px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 20px;
-  width: 90%;
-  object-fit: cover;
-}
-.projectDetails ul {
-  display: flex;
-  gap: 25px;
-  padding: 0;
-}
-.projectDetails ul .projectTag {
-  list-style-type: none;
-  background-color: #afb6e5;
-  border-radius: 15px;
-  padding: 15px;
-  border: 0.5px solid white;
-}
-.projectDetails .descriptionSection {
-  display: flex;
-  flex-direction: column;
-  list-style-type: square;
-}
-.projectDetails .linkToProject {
-  text-decoration: none;
-  color: black;
-  font-weight: bolder;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 1px 4px 5px black;
-  background: linear-gradient(white, #c9b2c5);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: linear-gradient(to right, #c9b2c5 50%, white 50%);
-  background-size: 200% 100%;
-  transition: background-position 0.5s;
-}
-.projectDetails .linkToProject img {
-  width: 20px;
-}
-.projectDetails .linkToProject:hover {
-  animation: bounce-to-right 0.8s forwards;
-}
-
-#contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-top: 3px solid #E8FDFD;
-  margin-top: 50px;
-}
-#contact h3 {
-  font-size: 40px;
-}
-#contact .form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-#contact .form .infos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-#contact .form input {
-  width: 300px;
-  height: 2em;
-}
-#contact .form input, #contact .form textarea {
-  font-size: 18px;
-}
-#contact button {
-  width: 10em;
-  border-radius: 15px;
-  font-size: 15px;
-  font-weight: bolder;
-  background: none;
-  color: black;
-  border-color: white;
-  text-shadow: 5px 5px 10px white;
-  box-shadow: white 1px 1px 3px 2px;
-  cursor: pointer;
-  padding: 12px;
-  margin-bottom: 50px;
-  margin-top: 15px;
+  background: linear-gradient(90deg, #c9b2c5, #afb6e5);
 }
 
 /*# sourceMappingURL=index.css.map */
