@@ -1,4 +1,4 @@
-import aboutMeImage from '../../assets/aboutImage.png'
+import aboutMeImage from '../../assets/aboutImage.webp'
 
 function About () {
     return (
