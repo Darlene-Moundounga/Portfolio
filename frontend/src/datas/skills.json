@@ -1,32 +1,39 @@
 [
     {
-        "id":"kzopdl56464",
-        "title":"HTML & CSS/SASS",
-        "description":"Réalisation de sites web en HTML et CSS, respect d'une maquette,utilisation de SASS pour le CSS"
+        "title":"HTML",
+        "image":"https://cdn-icons-png.flaticon.com/128/888/888859.png"
+        
     },
     {
-        "id":"cidpomd4545",
-        "title":"Javascript & ReactJS",
-        "description":"Réalisation de site web dynamique, avec Javascript et/ou ReactJS, communication avec des API"
+        "title":"CSS/SASS",
+        "image":"https://cdn-icons-png.flaticon.com/128/732/732190.png"
     },
     {
-        "id":"ecfcc5444",
-        "title":"NodeJS/ExpressJS & MongoDB",
-        "description":"Gérer la partie back-end avec un serveur, stockage sécurisé des données, pratique du Green Code, permettre une authentification sécurisée"
+        "title":"Javascript",
+        "image":"https://cdn-icons-png.flaticon.com/128/5047/5047147.png"
     },
     {
-        "id":"dddeded44454",
+        "title":"ReactJS",
+        "image":"https://cdn-icons-png.flaticon.com/128/10832/10832132.png"
+    },
+    {
+        "title":"NodeJS/ExpressJS",
+        "image":"https://cdn-icons-png.flaticon.com/128/919/919825.png"
+    },
+    {
+        "title":"MongoDB",
+        "image":"https://cdn-icons-png.flaticon.com/128/5405/5405131.png"
+    },
+    {
         "title":"Git & GitHub",
-        "description":"Versionner les projets avec Git et GitHub"
+        "image":"https://cdn-icons-png.flaticon.com/128/25/25231.png"
     },
     {
-        "id":"cfdcsdfc45545",
         "title":"Optimisation et Debug",
-        "description":"Optimiser un site web en ce qui concerne le SEO (Référencement), l'accessibilité, les performances et debug du site"
+        "image":"https://cdn-icons-png.flaticon.com/512/2082/2082114.png"
     },
     {
-        "id":"efkieojfo5415454",
         "title":"Gestion de Projet",
-        "description":"Planification du développement d'un site,réaliser des spécifications techniques à partir de spécifications fonctionnelles, faire de la veille technologique, pratique des méthodes agiles et Kanban"
+        "image":"https://cdn-icons-png.flaticon.com/512/3286/3286792.png"
     }
 ]

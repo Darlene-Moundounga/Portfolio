@@ -4,24 +4,26 @@ import Skills from '../Components/Skills/Skills'
 import dataSkills from '../datas/skills.json'
 import Projects from '../Components/Card/Card'
 import dataProjects from '../datas/projects.json'
+import Form from '../Components/Form/Form'
 
 function Home (){
     return (
         <div>
             <PagePresentation/>
             <About/>
-            <div className='skillsSection'>
+            <div id='skillsSection'>
                 <h2>Mes compétences</h2>
                 <div className="skillsCards">
                     {dataSkills.map((skill) => 
                         <Skills 
-                        key={skill.id}
-                        title={skill.title} 
-                        description={skill.description}/>
+                        key={skill.title}
+                        title={skill.title}
+                        image={skill.image}/>
                     )}
                 </div>
             </div>
-            <div className='projectsSection'>
+            
+            <div id='projectsSection'>
                 <h2>Mes projets</h2>
                 <div className='projectsCards'>
                     {
@@ -30,11 +32,11 @@ function Home (){
                         key={project.id}
                         id={project.id}
                         cover={project.cover}
-                        title={project.title}
-                        tags={project.tags}/>)
+                        title={project.title}/>)
                     }
                 </div>
             </div>
+            <Form/>
         </div>
     )
 }

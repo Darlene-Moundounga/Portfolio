@@ -1,51 +1,75 @@
 [
     {
         "id":"Booki",
-        "cover":"https://strapi-h2ev.onrender.com/uploads/Booki_Cover_Image_edb0369b75.webp",
+        "cover":"https://booki.mathisbarre.com/img/booki_banner.png",
         "title":"Booki",
-        "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
+        "descriptions":["Site web de réservation de logements et d'activités.",
+                        "Réalisé uniquement avec HTML et CSS.",
+                        "Site statique avec mise en page responsive et compatibilité multi-navigateurs.",
+                        "Respect strict de la maquette pour une cohérence esthétique.",
+                        "Mise en valeur des compétences en design web et intégration."],
         "link":"https://darlene-moundounga.github.io/OC-P2-Booki/",
         "tags":["HTML", "CSS"],
-        "image":"https://strapi-h2ev.onrender.com/uploads/Booki_Cover_Image_edb0369b75.webp"
+        "images":["https://i.ibb.co/M5jkh4K/1.png","https://i.ibb.co/DW9Pm2b/2.png","https://i.ibb.co/Lz7WsDx/3.png"]
     },
 
     {
         "id":"SophieBluel-Portfolio",
         "cover":"https://strapi-h2ev.onrender.com/uploads/Sophie_Bluel_Cover_Image_900e348e98.webp",
         "title":"Sophie Bluel-Portfolio",
-        "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
+        "descriptions":["Collaboration passionnante pour créer une page web dynamique pour une architecte d'intérieur.",
+                        "Objectif : fournir une expérience immersive en ligne pour présenter ses travaux élégamment.",
+                        "Utilisation de JavaScript pour le développement front-end, mettant l'accent sur l'interaction utilisateur.",
+                        "Communication avec une API, gestion des événements utilisateur et manipulation du DOM avec JavaScript.",
+                        "Développement d'une page de connexion pour l'administrateur du site.",
+                        "Intégration d'une modale pour uploader de nouveaux médias, facilitant la mise à jour du contenu."],
         "link":"https://github.com/Darlene-Moundounga/P3-Portfolio-SB/",
         "tags":["HTML", "CSS", "Javascript", "API"],
-        "image":"https://strapi-h2ev.onrender.com/uploads/Sophie_Bluel_Cover_Image_900e348e98.webp"
+        "images":["https://i.ibb.co/wS3Lk4c/1.png","https://i.ibb.co/G262JJx/2.png"]
     },
 
     {
         "id":"NinaCarducci-Photographie",
-        "cover":"https://www.cams-code-projects.com/img-projects/nina-carducci/nina-carducci-cover.webp",
+        "cover":"https://sitechecker.pro/wp-content/uploads/2018/02/Knowledge-base-part-3_what-is-seo.jpg",
         "title":"Nina Carducci-Photographie",
-        "description":"Réalisation du projet Booki, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
-        "link":"https://github.com/Darlene-Moundounga/darlene.github.io",
-        "tags":["Ligthouse", "SEO","Référencement","Accessibilité","Performances"],
-        "image":"https://www.cams-code-projects.com/img-projects/nina-carducci/nina-carducci-cover.webp"
+        "descriptions":["Optimisation des performances et de l'accessibilité d'un site web existant.",
+                        "Objectif: Optimiser le référencement sur les moteurs de recherche (SEO) et améliorer l'accessibilité.",
+                        "Utilisation d'outils de diagnostic tels que Lighthouse et Wave pour évaluer les performances et l'accessibilité.",
+                        "Debug: Modifications du code pour résoudre les problèmes de chargement et de référencement identifiés.",
+                        "Transformation du site existant en une vitrine numérique prête à attirer un public plus large."],
+        "link":"https://darlene-moundounga.github.io/nina-carducci-darlene.github.io/",
+        "tags":["Lighthouse", "SEO","Référencement","Accessibilité","Performances"],
+        "images":["https://i.ibb.co/TRGrs2Z/1.png","https://i.ibb.co/QFCRSv1/2.png","https://i.ibb.co/CbB9BbC/Design-sans-titre-3.png"]
     },
     
     {
         "id":"Kasa",
         "cover":"https://strapi-h2ev.onrender.com/uploads/Kasa_Showcase_Image_8f93a1690f.webp",
         "title":"Kasa",
-        "description":"Réalisation du projet Kasa, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
+        "descriptions":["Développement du front-end d'une application avec React pour créer des interfaces web modernes et réactives.",
+       " Création de l'interface utilisateur de l'application Kasa.",
+        "Travail sur la présentation des données et la création des différentes sections de l'application.",
+        "Objectif principal : rendre l'expérience utilisateur fluide et intuitive.",
+        "Utilisation de maquettes fournies par l'équipe de design comme guide pour créer les composantes visuelles."],
         "link":"https://github.com/Darlene-Moundounga/Kasa",
         "tags":["SASS","ReactJS"],
-        "image":"https://strapi-h2ev.onrender.com/uploads/Kasa_Showcase_Image_8f93a1690f.webp"
+        "images":["https://i.ibb.co/7yz4QJJ/1.png","https://i.ibb.co/4F1D87r/2.png","https://i.ibb.co/thzcmTQ/3.png"]
     },
     {
         "id":"MonVieuxGrimoire",
         "cover":"https://strapi-h2ev.onrender.com/uploads/Vieux_Grimoire_Showcase_Image_4f4a3b5f10.webp",
         "title":"Mon Vieux Grimoire",
-        "description":"Réalisation du projet Mon Vieux Grimoire, site web qui a pour but de faire de la recherche de logement(comme AirBnB), exclusivement en HTML et CSS, respect de la maquette",
+        "descriptions":["Déploiement des compétences en développement back-end pour créer un site de notation de livres.",
+                        "Mise en place de l'infrastructure serveur avec NodeJS (ExpressJS) et connexion à une base de données MongoDB.",
+                        "Développement des modèles de données et des opérations CRUD (Create,Read,Update,Delete).",
+                        "Communication avec une API.",
+                        "Sécurisation des opérations et respect des bonnes pratiques de stockage des données.",
+                        "Implémentation d'un système d'authentification sécurisé (avec JWT) pour protéger les comptes utilisateurs.",
+                        "Intégration de fonctionnalités pour le téléchargement et l'optimisation des images.",
+                        "Respect des bonnes pratiques du Green Code pour réduire l'empreinte écologique du site."],
         "link":"https://github.com/Darlene-Moundounga/P7-Library",
         "tags":["NodeJS","ExpressJS","MongoDB"],
-        "image":"https://strapi-h2ev.onrender.com/uploads/Vieux_Grimoire_Showcase_Image_4f4a3b5f10.webp"
+        "images":["https://i.ibb.co/Q9dxKD3/1.png","https://i.ibb.co/Ykdp3XB/2.png","https://i.ibb.co/P9jMLMg/3.png"]
     }
     
 ]

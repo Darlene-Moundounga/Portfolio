@@ -1,0 +1,55 @@
+.pagePresentation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    h1{
+        font-family: "Lovelo Line";
+        font-size: 60px;
+        width: auto;
+        text-align: center;
+        color: white;
+    }
+    .subtitlePage{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+        p{
+        font-size: 40px;
+        color: white;
+        }
+        img{
+        width: 100px;
+        height: 100px;
+        }
+    }
+
+    p,a,h1{
+    text-shadow: 0.1em 0.1em 1em black;
+    }
+    .goToProject{
+        font-size: 20px;
+        text-decoration: none;
+        border: 0.5px solid white;
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 1px 4px 12px black;
+        }
+}
+
+@media screen and (max-width:768px) { 
+    .pagePresentation {
+        h1{
+            font-size: 35px;
+        }
+        .subtitlePage p{
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+ 

@@ -1,0 +1,28 @@
+.errorPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    h1{
+        font-size: 18em;
+    }
+    h2{
+        font-size: 5em;
+    }
+    p{
+        font-size: 3em;
+    }
+    h1,h2,p{
+        margin: 0;
+    }
+    button{
+        font-size: 20px;
+        text-decoration: none;
+        border: 3px solid white;
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 1px 4px 12px black;
+        
+    }
+}

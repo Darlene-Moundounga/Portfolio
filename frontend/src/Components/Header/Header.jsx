@@ -2,13 +2,13 @@ function Header () {
     return (
         <div className="header">
             <div className="headerTitle">
-                <p>Darlène Moundounga</p>
+                <a href="/">Darlène Moundounga</a>
             </div>
             <nav className="headerSections">
-                <p>A propos</p>
-                <p>Compétences</p>
-                <p>Projets</p>
-                <p>Contactez-moi</p>
+                <a href="/#aboutMe"> A propos</a>
+                <a href="/#skillsSection">Compétences</a>
+                <a href="/#projectsSection">Projets</a>
+                <a href="#contact">Contactez-moi</a>
             </nav>
         </div>
     )
