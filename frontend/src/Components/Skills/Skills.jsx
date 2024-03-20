@@ -3,7 +3,7 @@ function Skills ({title,image}){
     return(
         <div className="skillCard">
             <img src={image} alt="" />
-            <h4>{title}</h4>
+            <h3>{title}</h3>
         </div>
     )
 }
