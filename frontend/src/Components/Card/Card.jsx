@@ -1,12 +1,11 @@
-function Card ({cover,title,tags,id}) {
+export default function Card ({cover,title,id}) {
     return (
         <div className='projectInfos'>
             <div className="projectCard">
-                <img src={cover} alt="couverture du projet" />
+                <img src={`${process.env.PUBLIC_URL}/images/${cover}`} alt="couverture du projet" />
                 <h3>{title} </h3>
             </div>
             <a href={`/project/${id}`} ><button>Voir les détails</button></a>
         </div>
     )
 }
-export default Card

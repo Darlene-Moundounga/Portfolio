@@ -1,7 +1,7 @@
 [
     {
         "id":"Booki",
-        "cover":"https://booki.mathisbarre.com/img/booki_banner.png",
+        "cover":"Booki.webp",
         "title":"Booki",
         "descriptions":["Site web de réservation de logements et d'activités.",
                         "Réalisé uniquement avec HTML et CSS.",
@@ -15,7 +15,7 @@
 
     {
         "id":"SophieBluel-Portfolio",
-        "cover":"https://strapi-h2ev.onrender.com/uploads/Sophie_Bluel_Cover_Image_900e348e98.webp",
+        "cover":"SB.webp",
         "title":"Sophie Bluel-Portfolio",
         "descriptions":["Collaboration passionnante pour créer une page web dynamique pour une architecte d'intérieur.",
                         "Objectif : fournir une expérience immersive en ligne pour présenter ses travaux élégamment.",
@@ -30,7 +30,7 @@
 
     {
         "id":"NinaCarducci-Photographie",
-        "cover":"https://sitechecker.pro/wp-content/uploads/2018/02/Knowledge-base-part-3_what-is-seo.jpg",
+        "cover":"NinaC.webp",
         "title":"Nina Carducci-Photographie",
         "descriptions":["Optimisation des performances et de l'accessibilité d'un site web existant.",
                         "Objectif: Optimiser le référencement sur les moteurs de recherche (SEO) et améliorer l'accessibilité.",
@@ -44,7 +44,7 @@
     
     {
         "id":"Kasa",
-        "cover":"https://strapi-h2ev.onrender.com/uploads/Kasa_Showcase_Image_8f93a1690f.webp",
+        "cover":"Kasa.webp",
         "title":"Kasa",
         "descriptions":["Développement du front-end d'une application avec React pour créer des interfaces web modernes et réactives.",
        " Création de l'interface utilisateur de l'application Kasa.",
@@ -57,7 +57,7 @@
     },
     {
         "id":"MonVieuxGrimoire",
-        "cover":"https://strapi-h2ev.onrender.com/uploads/Vieux_Grimoire_Showcase_Image_4f4a3b5f10.webp",
+        "cover":"MVG.webp",
         "title":"Mon Vieux Grimoire",
         "descriptions":["Déploiement des compétences en développement back-end pour créer un site de notation de livres.",
                         "Mise en place de l'infrastructure serveur avec NodeJS (ExpressJS) et connexion à une base de données MongoDB.",

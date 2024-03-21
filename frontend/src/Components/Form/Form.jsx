@@ -1,4 +1,4 @@
-function Form () {
+export default function Form (){
     return(
             <div id="contact">
                 <h3>Contactez moi !</h3>
@@ -14,5 +14,3 @@ function Form () {
         </div>
     )
 }
-
-export default Form

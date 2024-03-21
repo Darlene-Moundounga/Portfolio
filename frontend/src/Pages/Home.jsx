@@ -14,11 +14,12 @@ function Home (){
             <div id='skillsSection'>
                 <h2>Mes compétences</h2>
                 <div className="skillsCards">
-                    {dataSkills.map((skill) => 
+                    {dataSkills.map((skill, key) => 
                         <Skills 
-                        key={skill.title}
+                        key={key}
                         title={skill.title}
-                        image={skill.image}/>
+                        image={skill.image}
+                        />
                     )}
                 </div>
             </div>
@@ -27,9 +28,9 @@ function Home (){
                 <h2>Mes projets</h2>
                 <div className='projectsCards'>
                     {
-                        dataProjects.map((project)=>
+                        dataProjects.map((project, projectKey)=>
                         <Projects
-                        key={project.id}
+                        key={projectKey}
                         id={project.id}
                         cover={project.cover}
                         title={project.title}/>)
@@ -40,5 +41,4 @@ function Home (){
         </div>
     )
 }
-
 export default Home
