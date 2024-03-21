@@ -1,6 +1,6 @@
 function Header () {
     return (
-        <div className="header">
+        <header>
             <div className="headerTitle">
                 <a href="/">Darlène Moundounga</a>
             </div>
@@ -10,7 +10,7 @@ function Header () {
                 <a href="/#projectsSection">Projets</a>
                 <a href="#contact">Contactez-moi</a>
             </nav>
-        </div>
+        </header>
     )
 }
 

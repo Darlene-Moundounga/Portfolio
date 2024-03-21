@@ -2,7 +2,7 @@ import aboutMeImage from '../../assets/aboutImage.webp'
 
 export default function About () {
     return (
-        <div id='aboutMe'>
+        <section id='aboutMe'>
             <h2>Qui suis-je ?</h2>
             <div className='aboutInfos'>
                 <img src={aboutMeImage} alt="Image représentant Moundounga Darlène" />
@@ -15,6 +15,6 @@ export default function About () {
                     <span>N'hésitez pas à me contacter pour discuter de la manière dont nous pouvons collaborer pour atteindre vos objectifs en matière de développement web.</span>
                 </p>
             </div>
-        </div>
+        </section>
     )
 }

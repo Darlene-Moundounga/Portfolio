@@ -20,7 +20,7 @@ function projectDetails ({id}){
                         )
                     }
                 </div>
-                <ul>
+                <ul className='tagsSection'> Compétences monopolisées :
                     {project.tags.map((tag, index) => (
                         <li key={index} className='projectTag'>{tag}</li>
                     ))}

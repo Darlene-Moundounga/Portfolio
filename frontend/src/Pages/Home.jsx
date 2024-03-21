@@ -11,7 +11,7 @@ function Home (){
         <div>
             <PagePresentation/>
             <About/>
-            <div id='skillsSection'>
+            <section id='skillsSection'>
                 <h2>Mes compétences</h2>
                 <div className="skillsCards">
                     {dataSkills.map((skill, key) => 
@@ -22,9 +22,9 @@ function Home (){
                         />
                     )}
                 </div>
-            </div>
+            </section>
             
-            <div id='projectsSection'>
+            <section id='projectsSection'>
                 <h2>Mes projets</h2>
                 <div className='projectsCards'>
                     {
@@ -36,7 +36,7 @@ function Home (){
                         title={project.title}/>)
                     }
                 </div>
-            </div>
+            </section>
             <Form/>
         </div>
     )
