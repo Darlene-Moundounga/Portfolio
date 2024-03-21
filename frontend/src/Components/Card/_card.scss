@@ -52,16 +52,22 @@
         }
         a{
           position: absolute;
-          button{
-            display: inline-block;
-            border-radius: 15px;
-            font-size: 25px;
-            color: white;
-            border:1px solid white;
-            text-shadow: 3px 2px 4px black;
+          button {
+            background: linear-gradient(to bottom right, #f119cd,#1026b4);
+            border: none;
+            border-radius: 12px;
+            color: #FFFFFF;
             cursor: pointer;
-            padding: 12px;
-        }
+            display: inline-block;
+            font-size: 20px;
+            line-height: 2.5;
+            padding: 0 8px;
+            transition: box-shadow .2s ease-in-out;
+          }
+          
+          button:not([disabled]):hover {
+            box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+          }
         }
       }
     }
@@ -73,3 +79,5 @@
       height: 250px;
     }
   }
+
+

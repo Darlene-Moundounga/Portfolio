@@ -19,22 +19,60 @@
     h2,a,h1{
     text-shadow: 0.1em 0.1em 1em black;
     }
-    .goToProject{
-        font-size: 20px;
-        text-decoration: none;
-        border: 0.5px solid white;
-        border-radius: 15px;
-        padding: 10px;
-        box-shadow: 1px 4px 12px black;
-        }
+   
+button {
+            margin-top: 10px;
+            position: relative;
+            cursor: pointer;
+            border: none;
+            width: 250px;
+            height: 50px;
+            border-radius: 50px;
+            background: linear-gradient(90deg,#ef6464,#384dd2, #FFAA0D, #e574d2);
+            background-size: 400%;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 4px;
+          }
+          button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            background: linear-gradient(90deg,#ef6464,#384dd2, #FFAA0D, #e574d2);
+            background-size: 400%;
+            border-radius: 50px;
+            transition: 0.5s;
+          }
+          button:hover {
+            animation: animate 10s linear infinite;
+          }
+          button:hover::before {
+            filter: blur(25px);
+            opacity: 0.8;
+            animation: animate 10s linear infinite;
+          }
+          @keyframes animate {
+            0% {
+              background-position: 0%;
+            }
+            100% {
+              background-position: 400%;
+            }
+          }
 }
+
+
 
 @media screen and (max-width:768px) { 
     .pagePresentation {
         h1{
             font-size: 35px;
         }
-        .subtitlePage h2{
+         h2{
             font-size: 16px;
         }
     }

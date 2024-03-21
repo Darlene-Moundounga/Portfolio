@@ -1,8 +1,9 @@
+import aboutImage from '../../assets/aboutImage.webp'
 function Header () {
     return (
         <header>
             <div className="headerTitle">
-                <a href="/">Darlène Moundounga</a>
+                <img src={aboutImage} alt="" /><a href="/">Darlène Moundounga</a>
             </div>
             <nav className="headerSections">
                 <a href="/#aboutMe"> A propos</a>
