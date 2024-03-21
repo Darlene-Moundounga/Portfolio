@@ -13,7 +13,7 @@ function projectDetails ({id}){
                     {
                         project.images.map((image,index)=> {
                             return (
-                                <div key={index}> <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt="" /></div>
+                                <div key={index}> <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt="Aperçu du site web du projet" /></div>
                             )
                         }
                         
@@ -34,7 +34,7 @@ function projectDetails ({id}){
                 </ul>
                 
                 <a href={project.link}  className='linkToProject'>Lien vers {project.title} 
-                    <img src="https://cdn-icons-png.flaticon.com/128/6364/6364375.png" alt="" /> 
+                    <img src="https://cdn-icons-png.flaticon.com/128/6364/6364375.png" alt="Lien vers le pojet" /> 
                 </a>
                 <Form/>
             </div>
