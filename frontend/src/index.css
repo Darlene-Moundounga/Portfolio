@@ -7,6 +7,7 @@
 @import url(./Pages/projectDetails/_projectDetails.scss);
 @import url(./Components/Form/_form.scss);
 @import url(./Components/Footer/_footer.scss);
+@import url(./Pages/Home/_home.scss);
 @font-face {
   font-family: "Lovelo Line";
   src: url(./police/Lovelo-LineLight.woff) format("woff");

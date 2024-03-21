@@ -1,0 +1,24 @@
+.formation{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        max-width: 1400px;
+        list-style-type: circle;
+        line-height: 30px;
+        .date{
+            font-weight: bolder;
+        }
+        .titleFormation{
+            align-items: center;
+            font-style: italic;
+            gap: 10px;
+            display: inline-flex;
+            img{
+                width: 20px;
+            }
+        }
+    }
+}
