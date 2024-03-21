@@ -13,7 +13,7 @@ function projectDetails ({id}){
                     {
                         project.images.map((image,index)=> {
                             return (
-                                <div key={index}> <img src={image} alt="" /></div>
+                                <div key={index}> <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt="" /></div>
                             )
                         }
                         

@@ -10,7 +10,7 @@
                         "Mise en valeur des compétences en design web et intégration."],
         "link":"https://darlene-moundounga.github.io/OC-P2-Booki/",
         "tags":["HTML", "CSS"],
-        "images":["https://i.ibb.co/M5jkh4K/1.png","https://i.ibb.co/DW9Pm2b/2.png","https://i.ibb.co/Lz7WsDx/3.png"]
+        "images":["Booki1.webp","Booki1.webp","Booki1.webp"]
     },
 
     {
@@ -25,7 +25,7 @@
                         "Intégration d'une modale pour uploader de nouveaux médias, facilitant la mise à jour du contenu."],
         "link":"https://github.com/Darlene-Moundounga/P3-Portfolio-SB/",
         "tags":["HTML", "CSS", "Javascript", "API"],
-        "images":["https://i.ibb.co/wS3Lk4c/1.png","https://i.ibb.co/G262JJx/2.png"]
+        "images":["SB1.webp","SB2.webp"]
     },
 
     {
@@ -39,7 +39,7 @@
                         "Transformation du site existant en une vitrine numérique prête à attirer un public plus large."],
         "link":"https://darlene-moundounga.github.io/nina-carducci-darlene.github.io/",
         "tags":["Lighthouse", "SEO","Référencement","Accessibilité","Performances"],
-        "images":["https://i.ibb.co/TRGrs2Z/1.png","https://i.ibb.co/QFCRSv1/2.png","https://i.ibb.co/CbB9BbC/Design-sans-titre-3.png"]
+        "images":["NinaC1.webp","NinaC2.webp","NinaC3.webp"]
     },
     
     {
@@ -53,7 +53,7 @@
         "Utilisation de maquettes fournies par l'équipe de design comme guide pour créer les composantes visuelles."],
         "link":"https://github.com/Darlene-Moundounga/Kasa",
         "tags":["SASS","ReactJS"],
-        "images":["https://i.ibb.co/7yz4QJJ/1.png","https://i.ibb.co/4F1D87r/2.png","https://i.ibb.co/thzcmTQ/3.png"]
+        "images":["Kasa1.webp","Kasa2.webp","Kasa3.webp"]
     },
     {
         "id":"MonVieuxGrimoire",
@@ -69,7 +69,7 @@
                         "Respect des bonnes pratiques du Green Code pour réduire l'empreinte écologique du site."],
         "link":"https://github.com/Darlene-Moundounga/P7-Library",
         "tags":["NodeJS","ExpressJS","MongoDB"],
-        "images":["https://i.ibb.co/Q9dxKD3/1.png","https://i.ibb.co/Ykdp3XB/2.png","https://i.ibb.co/P9jMLMg/3.png"]
+        "images":["MVG1.webp","MVG2.webp","MVG3.webp"]
     }
     
 ]
