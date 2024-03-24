@@ -17,8 +17,12 @@
         "image":"https://cdn-icons-png.flaticon.com/128/10832/10832132.png"
     },
     {
-        "title":"NodeJS/ExpressJS",
+        "title":"NodeJS",
         "image":"https://cdn-icons-png.flaticon.com/128/919/919825.png"
+    },
+    {
+        "title":"ExpressJS",
+        "image":"https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
     },
     {
         "title":"MongoDB",
