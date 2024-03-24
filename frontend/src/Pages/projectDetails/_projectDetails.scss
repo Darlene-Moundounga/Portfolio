@@ -16,7 +16,14 @@
         font-size: 40px;
         color: black;
       }
+      i:hover{
+        color: white;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: transform ease-in-out 0.3s;
+      }
     }
+     
     .imagesProject{
       display: flex;
       margin: 30px;
